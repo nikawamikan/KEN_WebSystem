@@ -1,0 +1,16 @@
+@CHARSET "UTF-8";
+
+body {
+	margin: 0;
+	background-image: url("/ideal/img/vegi.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.home{
+	background-image: url("/ideal/img/bg1.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}

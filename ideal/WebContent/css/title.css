@@ -1,0 +1,35 @@
+@CHARSET "UTF-8";
+
+.titleSticky {
+	position: sticky;
+	top: 60px;
+	z-index: 200;
+}
+
+.titleInnerDiv {
+	max-width :30em;
+	text-align: center;
+}
+
+h1,h2,h3,h4{
+	z-index: 200;
+	color: white;
+}
+.greenBack{
+	background: rgba(128, 222, 71, .6);
+}
+.yellowBack{
+	background: rgba(183, 178, 127, .6);
+}
+.redBack{
+	background: rgba(255, 58, 58, .65);
+}
+.green{
+	background: rgba(100, 187, 47, 1);
+}
+.yellow{
+	background: rgba(183, 178, 127, 1);
+}
+.red{
+	background: rgba(255, 58, 58, 1);
+}

@@ -1,0 +1,38 @@
+@CHARSET "UTF-8";
+
+table.tableRadius {
+	border-radius: 1em;
+	color: #ffffff;
+}
+
+table * {
+	color: #ffffff;
+}
+
+.graytile {
+	color: #ffffff;
+	line-height: 2em;
+	background: rgba(0, 0, 0, .46);
+	height: 2em;
+	width: 2em;
+	border-style: none;
+	border-radius: 100%;
+}
+
+.greentile {
+	color: #ffffff;
+	font-size: 1em;
+	background: rgba(197, 228, 146, .30);
+	height: 2em;
+	width: 2em;
+	border-style: none;
+	border-radius: 100%;
+}
+
+.back1 {
+	background: rgba(197, 228, 0, .30);
+}
+
+.back2 {
+	background: rgba(197, 0, 0, .30);
+}

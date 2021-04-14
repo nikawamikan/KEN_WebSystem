@@ -1,0 +1,36 @@
+@CHARSET "UTF-8";
+
+td, th {
+	color: #ffffff;
+}
+
+.specialContainer {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.special {
+	width: 30%;
+}
+
+.imgs{
+	width: 100%;
+}
+
+.min-hi{
+	min-height: 11em;
+}
+
+@media screen and (max-width: 900px) {
+	.special {
+		width: 45%;
+	}
+}
+
+@media screen and (max-width: 650px) {
+	.special {
+		width: 95%;
+	}
+}

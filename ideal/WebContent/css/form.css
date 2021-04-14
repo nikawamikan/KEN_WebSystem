@@ -1,0 +1,82 @@
+@CHARSET "UTF-8";
+
+.messageDiv {
+	height: 1.5em;
+	color: white;
+}
+
+.tableDef {
+	background-color: rgba(165, 111, 131, .56);
+	border-radius: 1.5em;
+	padding: 0.3em;
+	color: white;
+	width: 10em;
+	margin-bottom: auto;
+	margin-right: 15px;
+}
+
+.formDiv {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.formDivInner {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 10px;
+}
+
+.titleDiv {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+
+.tableDiv {
+	margin: 0px;
+	max-width: 60em;
+	padding: 2em;
+	border-radius: 1em;
+
+	background-color: rgba(5, 5, 5, .4);
+}
+
+.inputDef {
+	border: solid white 2px;
+	padding: 0.5em 0.5em;
+	border-radius: 1.5em;
+	outline: none;
+	width: 30em;
+	transition: 500ms ease-out;
+	border: solid white 2px;
+}
+
+@media screen and (max-width: 470px) {
+	.inputDef {
+		width: 20em;
+	}
+}
+
+.inputDef:focus {
+	border: solid #5ce783 2px;
+}
+
+.formButton {
+	background-color: rgba(165, 111, 131, .56);
+	height: 3em;
+	line-height: 1.5em;
+	margin-top: 10px;
+	border-radius: 5em;
+	float: right;
+	width: 50%;
+	height: 3em;
+}
+
+.enterButton {
+	background-color: rgba(165, 111, 131, .56);
+	margin-top: 10px;
+	border-radius: 5em;
+	width: 15em;
+}
